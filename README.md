@@ -1,5 +1,5 @@
 
-![Available on Windows only](www/img/shiny-sample.png)
+![App screenshot](www/img/shiny-sample.png)
 
 
 ## Features
