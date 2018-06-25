@@ -1,9 +1,7 @@
 # launch.R
 
 ## Lauch Shiny app and explore questionnaire data
-
-dset <- "data/database.csv"
-
+## but first ensure that dependencies are in place
 if(!require(sensitisation, quietly = TRUE)) {
   if (!requireNamespace("devtools")) {
     cat("Installing 'devtools' from CRAN\n")
@@ -13,4 +11,4 @@ if(!require(sensitisation, quietly = TRUE)) {
   devtools::install_github("NESREA/sensitisation")
 }
 
-sensitisation::display_data(dset)
+sensitisation::display_data("data/database.csv")
