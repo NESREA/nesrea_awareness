@@ -6,4 +6,5 @@ data
 packrat/lib*/
 README.html
 .Rprofile
-www*/ 
+www*/
+packrat
