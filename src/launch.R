@@ -11,4 +11,4 @@ if(!require(sensitisation, quietly = TRUE)) {
   devtools::install_github("NESREA/sensitisation")
 }
 
-sensitisation::display_data("data/database.csv")
+sensitisation::display_data("data/awareness.db")
